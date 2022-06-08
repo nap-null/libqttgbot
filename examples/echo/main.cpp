@@ -1,12 +1,38 @@
 #include <QtCore/QtCore>
 
+
+using namespace tgbot;
+
+
+class EchoBot : public Bot
+{
+public:
+    EchoBot(const QString& name, const QString& credetials)
+      : Bot(name, credetials)
+    {
+    }
+
+    virtual ~EchoBot() { }
+
+    virtual void onMessageReceived(const Message& msg) {
+        if (msg.type != Message::TEXT) {
+            sendMessage("I could receive only text messages.");
+
+            return;
+        }
+
+        TextMsg textMessage(msg);
+
+        sendMessage(textMsg.text());
+    }
+};
+
+
 int main(int argc, char* argv[]) {
-	QStringList args;
+    EchoBot bot("botname", "credentials");
 
-	for(int i = 0; i < argc; i++)
-		args << argv[i];
-
-	qDebug() << args;
+    bot.start();
+    bot.waitStop();
 
 	return 0;
 }
