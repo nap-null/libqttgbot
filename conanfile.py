@@ -3,8 +3,8 @@ from conans import ConanFile, CMake, RunEnvironment, tools, __version__ as conan
 assert conan_version >= tools.Version('1.35'), 'Conan version is too old.'
 
 
-class Qt6CmdAppConan(ConanFile):
-    name = 'qt6-cmd-app'
+class QtTgBotConan(ConanFile):
+    name = 'qttgbot'
     version = '0.0.0'
     generators = 'cmake', 'cmake_find_package'
 
