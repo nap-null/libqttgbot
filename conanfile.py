@@ -5,12 +5,14 @@ assert conan_version >= tools.Version('1.35'), 'Conan version is too old.'
 
 class QtTgBotConan(ConanFile):
     name = 'qttgbot'
-    version = '0.0.0'
+    version = '0.0.1'
     generators = 'cmake', 'cmake_find_package'
 
     exports_sources = (
         'CMakeLists.txt',
         'main.cpp',
+        'src/*',
+        'examples/*',
     )
 
     requires = 'qt/6.3.0@nap/devel'
@@ -29,3 +31,6 @@ class QtTgBotConan(ConanFile):
         cmake.definitions['USE_CONAN'] = True
         cmake.configure()
         return cmake
+
+    def package_info(self):
+        self.cpp_info.libs = ["qttgbot"]

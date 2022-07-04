@@ -2,8 +2,8 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="qttgbot" targetName="echo" />
-      <config projectName="qttgbot" targetName="qttgbot" />
+      <config projectName="libqttgbot" targetName="libqttgbot" />
+      <config projectName="libqttgbot" targetName="echo" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -13,7 +13,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="071fe4ff-5505-4f47-9dc9-ca3c7031df4e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/echo/EchoBot/EchoBot.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/echo/EchoBot/EchoBot.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/echo/Main/Main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/echo/Main/Main.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Bot.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Bot.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BotApi/AccessManager.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BotApi/AccessManager.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chat/Chat.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chat/Chat.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Message/Message.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Message/Message.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Reply/Reply.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Update/Update.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Update/Update.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/User/User.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/User/User.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conanfile.py" beforeDir="false" afterPath="$PROJECT_DIR$/conanfile.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/echo/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/examples/echo/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/examples/echo/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/examples/echo/main.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -45,36 +67,46 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="RunOnceActivity.cidr.known.project.marker" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="cf.first.check.clang-format" value="false" />
     <property name="cidr.known.project.marker" value="true" />
     <property name="cmake.loaded.for.project" value="true" />
+    <property name="com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File" value="TEXT" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="CMakeSettings" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.C/C++" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/src/Update" />
+      <recent name="$PROJECT_DIR$/src/Chat" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/examples/echo" />
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/examples/echo/Main" />
     </key>
   </component>
   <component name="RunManager" selected="CMake Application.echo">
-    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="echo" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="libqttgbot" TARGET_NAME="echo" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="libqttgbot" RUN_TARGET_NAME="echo">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="echo" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="qttgbot" TARGET_NAME="echo" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="qttgbot" RUN_TARGET_NAME="echo">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="qttgbot" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="qttgbot" TARGET_NAME="qttgbot" CONFIG_NAME="Release">
+    <configuration name="libqttgbot" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="libqttgbot" TARGET_NAME="libqttgbot" CONFIG_NAME="Release">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="CMake Application.qttgbot" />
+      <item itemvalue="CMake Application.libqttgbot" />
       <item itemvalue="CMake Application.echo" />
     </list>
   </component>
@@ -87,7 +119,23 @@
       <option name="presentableId" value="Default" />
       <updated>1651062618716</updated>
       <workItem from="1651062620375" duration="690000" />
-      <workItem from="1654693153236" duration="1549000" />
+      <workItem from="1654693153236" duration="2146000" />
+      <workItem from="1654709488524" duration="2264000" />
+      <workItem from="1654787261484" duration="10298000" />
+      <workItem from="1655079512215" duration="4998000" />
+      <workItem from="1655222399348" duration="12418000" />
+      <workItem from="1655447306917" duration="17000" />
+      <workItem from="1655450973223" duration="1268000" />
+      <workItem from="1655886464818" duration="57000" />
+      <workItem from="1655887132373" duration="5335000" />
+      <workItem from="1655912250412" duration="11000" />
+      <workItem from="1656149776287" duration="26000" />
+      <workItem from="1656149834387" duration="602000" />
+      <workItem from="1656151631917" duration="734000" />
+      <workItem from="1656159023462" duration="610000" />
+      <workItem from="1656352432701" duration="3826000" />
+      <workItem from="1656364507071" duration="10032000" />
+      <workItem from="1656953510755" duration="4006000" />
     </task>
     <servers />
   </component>
