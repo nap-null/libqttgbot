@@ -1,38 +1,15 @@
-#include <QtCore/QtCore>
+#include <QCoreApplication>
+#include <QTimer>
 
-
-using namespace tgbot;
-
-
-class EchoBot : public Bot
-{
-public:
-    EchoBot(const QString& name, const QString& credetials)
-      : Bot(name, credetials)
-    {
-    }
-
-    virtual ~EchoBot() { }
-
-    virtual void onMessageReceived(const Message& msg) {
-        if (msg.type != Message::TEXT) {
-            sendMessage("I could receive only text messages.");
-
-            return;
-        }
-
-        TextMsg textMessage(msg);
-
-        sendMessage(textMsg.text());
-    }
-};
+#include "Main/Main.h"
 
 
 int main(int argc, char* argv[]) {
-    EchoBot bot("botname", "credentials");
+    QCoreApplication app(argc, argv);
 
-    bot.start();
-    bot.waitStop();
+    Main main(&app);
 
-	return 0;
+    QTimer::singleShot(0, &main, &Main::run);
+
+    return app.exec();
 }

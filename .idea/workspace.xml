@@ -1,21 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="CMakePresetLoader"><![CDATA[{
+  "useNewFormat": true
+}]]></component>
+  <component name="CMakeRunConfigurationManager">
     <generated>
-      <config projectName="qttgbot" targetName="echo" />
-      <config projectName="qttgbot" targetName="qttgbot" />
+      <config projectName="libqttgbot" targetName="libqttgbot" />
+      <config projectName="libqttgbot" targetName="echo" />
     </generated>
   </component>
   <component name="CMakeSettings">
-    <configurations>
-      <configuration PROFILE_NAME="Release" ENABLED="true" CONFIG_NAME="Release" />
-    </configurations>
+    <configurations />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="071fe4ff-5505-4f47-9dc9-ca3c7031df4e" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/echo/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/examples/echo/main.cpp" afterDir="false" />
-    </list>
+    <list default="true" id="071fe4ff-5505-4f47-9dc9-ca3c7031df4e" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -24,7 +25,7 @@
   <component name="ClangdSettings">
     <option name="formatViaClangd" value="false" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Release" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -41,20 +42,34 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="RunOnceActivity.cidr.known.project.marker" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="cf.first.check.clang-format" value="false" />
-    <property name="cidr.known.project.marker" value="true" />
-    <property name="cmake.loaded.for.project" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="CMakeSettings" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "git-widget-placeholder": "Rebasing main",
+    "last_opened_file_path": "/Users/alev/Work/nap-null/libqttgbot",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "CMakeSettings",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/src/Update" />
+      <recent name="$PROJECT_DIR$/src/Chat" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/examples/echo" />
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/examples/echo/Main" />
     </key>
   </component>
   <component name="RunManager" selected="CMake Application.echo">
@@ -63,19 +78,19 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="echo" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="qttgbot" TARGET_NAME="echo" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="qttgbot" RUN_TARGET_NAME="echo">
+    <configuration name="echo" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="qttgbot" TARGET_NAME="echo" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="qttgbot" RUN_TARGET_NAME="echo">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="qttgbot" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="qttgbot" TARGET_NAME="qttgbot" CONFIG_NAME="Release">
+    <configuration name="qttgbot" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="qttgbot" TARGET_NAME="qttgbot" CONFIG_NAME="Debug">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="CMake Application.qttgbot" />
       <item itemvalue="CMake Application.echo" />
+      <item itemvalue="CMake Application.qttgbot" />
     </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -87,12 +102,39 @@
       <option name="presentableId" value="Default" />
       <updated>1651062618716</updated>
       <workItem from="1651062620375" duration="690000" />
-      <workItem from="1654693153236" duration="1549000" />
+      <workItem from="1654693153236" duration="2146000" />
+      <workItem from="1654709488524" duration="2264000" />
+      <workItem from="1654787261484" duration="10298000" />
+      <workItem from="1655079512215" duration="4998000" />
+      <workItem from="1655222399348" duration="12418000" />
+      <workItem from="1655447306917" duration="17000" />
+      <workItem from="1655450973223" duration="1268000" />
+      <workItem from="1655886464818" duration="57000" />
+      <workItem from="1655887132373" duration="5335000" />
+      <workItem from="1655912250412" duration="11000" />
+      <workItem from="1656149776287" duration="26000" />
+      <workItem from="1656149834387" duration="602000" />
+      <workItem from="1656151631917" duration="734000" />
+      <workItem from="1656159023462" duration="610000" />
+      <workItem from="1656352432701" duration="3826000" />
+      <workItem from="1656364507071" duration="10032000" />
+      <workItem from="1656953510755" duration="4006000" />
+      <workItem from="1675251642634" duration="1875000" />
+      <workItem from="1675362210255" duration="798000" />
+      <workItem from="1675678326815" duration="1254000" />
+      <workItem from="1682944794902" duration="465000" />
+      <workItem from="1690314735939" duration="2536000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VCPKGProject">
+    <isAutomaticEditVcpkgJson value="false" />
+    <isAutomaticCheckingOnLaunch value="false" />
+    <isAutomaticFoundErrors value="true" />
+    <isAutomaticFoundErrors value="true" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
