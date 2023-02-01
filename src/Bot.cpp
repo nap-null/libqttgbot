@@ -124,7 +124,6 @@ QNetworkRequest Bot::getUpdates(
             }
         }
 
-
         reply->deleteLater();
     });
 
